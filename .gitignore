@@ -1,0 +1,24 @@
+# secrets
+env_file
+
+# cache
+*.pyc
+__pycache__/
+
+# testing
+coverage
+.pytest_cache/
+.coverage*
+*/tests/results
+
+# production
+build
+*.egg-info/
+
+# misc
+.DS_Store
+archive/
+*.profile
+
+# output
+output/
