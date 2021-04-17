@@ -6,14 +6,14 @@ RUN apt-get update && \
     apt-get install -y \
         netcat-openbsd \
         gcc \
-        libpq-dev \
+        libpq-dev && \
     apt-get clean
 
 FROM builder
 
 SHELL ["/bin/bash", "-c"]
 
-ENV APP_DIR=/opt/app_name
+ENV APP_DIR=/opt/app
 
 COPY requirements.txt $APP_DIR/requirements.txt
 COPY setup.cfg $APP_DIR/setup.cfg

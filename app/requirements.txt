@@ -4,4 +4,3 @@ ipdb
 ipython
 isort
 pytest
-pytest-cov

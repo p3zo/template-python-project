@@ -5,7 +5,7 @@ __version__ = f"0.0.1.{__build__}"
 
 
 setup(
-    name="app_name",
+    name="template",
     author="p3zo",
     version=__version__,
     packages=find_packages(exclude=["tests", "tests.*"]),

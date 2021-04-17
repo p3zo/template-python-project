@@ -5,7 +5,7 @@ build:
 	docker-compose build
 
 dev:
-	@echo "Starting containers in dev mode:"
+	@echo "Starting container(s) in dev mode:"
 	docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d
 
 shell: dev
