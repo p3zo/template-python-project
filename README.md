@@ -1,6 +1,6 @@
 # Template Python Project
 
-A quick jumping-off point for Python projects. Includes configuration for [pytest](https://docs.pytest.org/en/6.2.x) for testing and [Docker](https://docs.docker.com) for bundling the project into a reproducible container.
+A quick jumping-off point for Python projects. Includes Docker configuration for bundling the project into a reproducible container, a Makefile, and [pytest](https://docs.pytest.org/en/6.2.x) for testing.
 
 ## Setup
 
